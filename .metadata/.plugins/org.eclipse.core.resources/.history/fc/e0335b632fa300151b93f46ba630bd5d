@@ -1,0 +1,5 @@
+package com.lukas.webapp.api;
+
+public class UserData {
+
+}

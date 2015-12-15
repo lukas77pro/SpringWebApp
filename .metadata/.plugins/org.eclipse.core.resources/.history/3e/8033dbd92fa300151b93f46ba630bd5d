@@ -1,0 +1,5 @@
+package com.lukas.webapp.rest;
+
+public class RestEndpoint {
+
+}

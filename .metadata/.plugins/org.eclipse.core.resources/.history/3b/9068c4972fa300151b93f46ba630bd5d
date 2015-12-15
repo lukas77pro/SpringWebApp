@@ -1,0 +1,6 @@
+package com.lukas.webapp.api;
+
+@Data
+public class User {
+
+}

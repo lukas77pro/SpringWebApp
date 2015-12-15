@@ -1,0 +1,8 @@
+package com.lukas.webapp.api;
+
+import lombok.Data;
+
+@Data
+public class User {
+
+}

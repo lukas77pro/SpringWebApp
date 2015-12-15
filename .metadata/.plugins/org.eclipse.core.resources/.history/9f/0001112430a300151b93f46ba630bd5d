@@ -1,0 +1,13 @@
+package com.lukas.webapp.rest;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class RestEndpoint {
+	
+	@RequestMapping("/user")
+	private User getUser(String name, String username, int age) {
+		
+	}
+}
