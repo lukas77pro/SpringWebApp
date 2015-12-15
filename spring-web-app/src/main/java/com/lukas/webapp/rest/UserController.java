@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.lukas.webapp.api.User;
 
 @RestController
-public class RestEndpoint {
+public class UserController {
 	
 	@RequestMapping(value="/user", method=RequestMethod.GET)
-	private User getUser(@RequestParam(value="name", defaultValue="Lukas") String name, 
+	public User getUser(@RequestParam(value="name", defaultValue="Lukas") String name, 
 						 @RequestParam(value="surname", defaultValue="Pro") String surname, 
 						 @RequestParam(value="age", defaultValue="77") int age) {
 		return User.builder().name(name).surname(surname).age(age).build();
